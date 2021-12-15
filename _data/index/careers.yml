@@ -7,13 +7,27 @@
     detail: Working on deep reinforcement learning for self-driving cabs.
     i18n: company_a_desc
   date:
-    detail: June 2021
+    detail: June 2021 - Present
     i18n: company_a_date
   job:
     detail: Research Intern
     i18n: company_a_job
   icon: fa-plus-square
   present: true
+
+- name:
+    detail: GAMMA Lab, University of Maryland, College Park
+    i18n: company_b
+  desc:
+    detail: Robust adversarial agent behaviour learning for autonomous driving using multi-agent deep reinforcement learning.
+    i18n: company_b_desc
+  date:
+    detail: Feb 2021 - May 2021
+    i18n: company_b_date
+  job:
+    detail: Independent Researcher with Prof. Aniket Bera
+    i18n: company_b_job
+  icon: fa-plus-square
 
 - name:
     detail: Morgan Stanley
