@@ -1,6 +1,21 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Visual Odometry - Camera motion estimation
+  i18n: visual-odometry
+  gh_user: anubhavparas
+  repo: visual-odometry
+  img: /static/assets/img/landing/visual_odomentry.png
+  desc: Implementing different steps to estimate the 3D motion of the camera. Provides as output a plot of the trajectory of the camera.
+
+- name: Optical Flow and object tracker using Lucas-Kanade Algorithm
+  i18n: lucas-kanade-tracker
+  gh_user: anubhavparas
+  repo: lucas-kanade-tracker
+  img: /static/assets/img/landing/lucas_kanade.png
+  desc: Implementing different steps to estimate the 3D motion of the camera. Provides as output a plot of the trajectory of the camera.
+
+
 - name: Nurse Bot
   i18n: nurse-bot
   gh_user: anubhavparas
@@ -8,12 +23,6 @@
   img: /static/assets/img/landing/guidance_task.gif
   desc: ROS based service-triggered indoor guidance and delivery robot for hospitals.
 
-- name: Visual Odometry - Camera motion estimation
-  i18n: visual-odometry
-  gh_user: anubhavparas
-  repo: visual-odometry
-  img: /static/assets/img/landing/visual_odomentry.png
-  desc: Implementing different steps to estimate the 3D motion of the camera. Provides as output a plot of the trajectory of the camera.
 
 - name: Quadrotor Control using Deep RL
   i18n: quad-control-rl
