@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anubhav Paras</title>
+    <link rel="icon" href="media/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+    <div class="ambient-layer" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <div class="brand">
+        <span class="brand-name">Anubhav Paras</span>
+        <!-- <span class="brand-meta">Researcher and Engineer</span> -->
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#academic">Academic Services</a>
+        <a href="media.html">Blogs &amp; Videos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="about">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <!-- <p class="eyebrow">Reinforcement Learning | Generative World Models | Multimodal LLMs</p> -->
+            <h1>
+              Anubhav Paras
+              <span class="subtitle">Interested in the art of making anything (or anyone) learn something.. :)</span>
+            </h1>
+            <p class="lead">
+              I am a Software Engineer at <a href="https://zoox.com/" target="_blank" rel="noreferrer">Zoox</a>, where I work on decision-making algorithms and design scalable and distributed
+              reinforcement learnin (RL) systems for autonomous robo-taxis. My work blends research and production engineering to move
+              ideas from academic papers to large-scale, deployed systems.
+            </p>
+            <p class="lead">
+              I went through a “Four-Year Transform” during my bachelors in Electrical and Electronics Engineering from <strong>VNIT, Nagpur</strong>.
+              After graduating, I worked at <strong>Morgan Stanley</strong> in Bengaluru as a full-stack developer before pursuing a Master’s in
+              Robotics at the <strong>University of Maryland, College Park</strong>.
+            </p>
+            <p class="lead">
+              Currently, I am exploring action-conditioned world models for learning environment dynamics and how
+              in-context learning can be integrated into world models or video-based planners to enable task and embodiment adaptation
+              with improved sample efficiency. More broadly, my interests span both the applied and theoretical foundations of
+              deep learning and RL in robotics to learn generalized and robust long-horizon policies.
+              <!-- , including vision-language-action (VLA) models, action-conditioned world models, -->
+              <!-- cross-embodiment alignment, and interpretability. -->
+            </p>
+            <p class="lead interests">
+              Research interests:
+              <span class="hover-term">
+                Reinforcement Learning
+                <span class="rl-hover" aria-hidden="true">
+                  <span class="rl-card rl-loop">
+                    <span class="rl-flow">
+                      <span class="rl-node">s</span>
+                      <span class="rl-arrow">→</span>
+                      <span class="rl-node">a</span>
+                      <span class="rl-arrow">→</span>
+                      <span class="rl-node">r</span>
+                      <span class="rl-arrow">→</span>
+                      <span class="rl-node">s'</span>
+                    </span>
+                  </span>
+                </span>
+              </span>,
+              <span class="animate-letters" data-text="Generative World Models">Generative World Models</span>,
+              <span class="animate-letters" data-text="Multimodal LLMs">Multimodal LLMs</span>,
+              <span class="random-highlight" data-text="Interpretability">Interpretability</span>,
+              <span class="hover-term cv-term">
+                Computer Vision
+                <span class="cv-hover" aria-hidden="true">
+                  <span class="hover-card cv-card">
+                    <span class="cv-keypoints">
+                      <span class="cv-car">
+                        <span class="car-body"></span>
+                        <span class="car-roof"></span>
+                        <span class="car-wheel wheel-left"></span>
+                        <span class="car-wheel wheel-right"></span>
+                      </span>
+                      <span class="kp-dot d1"></span>
+                      <span class="kp-dot d2"></span>
+                      <span class="kp-dot d3"></span>
+                      <span class="kp-dot d4"></span>
+                      <span class="kp-dot d5"></span>
+                      <span class="kp-dot d6"></span>
+                      <span class="kp-dot d7"></span>
+                      <span class="kp-dot d8"></span>
+                    </span>
+                  </span>
+                </span>
+              </span>,
+              <span class="hover-term robot-term">
+                Robotics
+                <span class="robot-hover" aria-hidden="true">
+                  <span class="hover-card robot-card">
+                    <span class="robot-drone">
+                      <span class="drone-body"></span>
+                      <span class="drone-top"></span>
+                      <span class="drone-camera"></span>
+                      <span class="drone-arm arm-left"></span>
+                      <span class="drone-arm arm-right"></span>
+                      <span class="drone-rotor rotor-fl"></span>
+                      <span class="drone-rotor rotor-fr"></span>
+                      <span class="drone-rotor rotor-bl"></span>
+                      <span class="drone-rotor rotor-br"></span>
+                    </span>
+                  </span>
+                </span>
+              </span>.
+            </p>
+            <div class="cta-row">
+              <a class="btn" href="#publications">View Publications</a>
+              <a class="btn ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="Quick facts">
+            <div class="photo-frame" aria-label="Photo placeholder">
+              <img
+                class="profile-photo"
+                src="media/AP.jpg"
+                alt="Portrait of Anubhav Paras"
+                data-images="media/AP.jpg,media/AP_with_bot.jpg"
+              />
+            </div>
+            <div class="social-row" aria-label="Relevant links">
+              <a class="social-btn github" href="https://github.com/anubhavparas" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M8 0a8 8 0 0 0-2.5 15.6c.4.1.6-.2.6-.4v-1.4c-2.5.5-3-.8-3-.8-.4-1-.9-1.3-.9-1.3-.7-.5.1-.5.1-.5.8.1 1.2.9 1.2.9.7 1.2 2 .9 2.5.7.1-.5.3-.9.5-1.1-2-.2-4.1-1-4.1-4.5 0-1 .3-1.7.8-2.3-.1-.2-.3-1 .1-2.1 0 0 .7-.2 2.3.9a7.5 7.5 0 0 1 4.1 0c1.6-1.1 2.3-.9 2.3-.9.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.3 0 3.5-2.1 4.3-4.1 4.5.3.3.6.8.6 1.6v2.3c0 .2.2.5.6.4A8 8 0 0 0 8 0Z"
+                  />
+                </svg>
+              </a>
+              <a class="social-btn" href="https://linkedin.com/company/anubhavparas" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.6h.1c.5-1 1.8-2.1 3.7-2.1 4 0 4.7 2.6 4.7 6v6.5h-4V15c0-1.5 0-3.5-2.1-3.5-2.2 0-2.5 1.6-2.5 3.4v6.1h-4V9Z"
+                  />
+                </svg>
+              </a>
+              <a class="social-btn" href="https://scholar.google.com/citations?user=ceE3_jIAAAAJ&hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M12 3 1 9l11 6 9-4.9V19h2V9L12 3Zm0 13L5 12.2V14c0 3.2 3.1 5 7 5s7-1.8 7-5v-1.8L12 16Z"
+                  />
+                </svg>
+              </a>
+              <a class="social-btn" href="https://www.youtube.com/@anubhavparas" target="_blank" rel="noreferrer" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M21.6 7.2a3 3 0 0 0-2.1-2.1C17.7 4.6 12 4.6 12 4.6s-5.7 0-7.5.5a3 3 0 0 0-2.1 2.1A31 31 0 0 0 2 12a31 31 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.8.5 7.5.5 7.5.5s5.7 0 7.5-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 22 12a31 31 0 0 0-.4-4.8ZM10 15.2V8.8L15.7 12 10 15.2Z"
+                  />
+                </svg>
+              </a>
+              <a class="social-btn" href="https://x.com/anubhav_paras_" target="_blank" rel="noreferrer" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M17.5 3h3.6l-7.9 9.1L22 21h-6.8l-5.3-6.5L4.8 21H1.1l8.4-9.7L2 3h6.9l4.8 5.9L17.5 3Zm-1.3 16h2l-12-14h-2l12 14Z"
+                  />
+                </svg>
+              </a>
+              <a class="social-btn" href="mailto:anubhavp@terpmail.umd.edu" aria-label="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 4v10h16V8l-8 5-8-5Zm8 3 8-5H4l8 5Z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <p class="social-note">
+              <a href="https://mind-reader.streamlit.app/" target="_blank" rel="noreferrer">Bdw, this can read your mind</a>!🔮 
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="recent-activities">
+        <div class="section-header">
+          <h2>Recent Activities</h2>
+          <p>Fresh work and updates from the last few months.</p>
+        </div>
+        <div class="list-card recent-card">
+          <ul class="publications-list recent-list">
+            <li>
+              Jan 2026: Created this fun project
+              <a href="https://huggingface.co/spaces/AnubhavParas/reels-from-video" target="_blank" rel="noreferrer">
+                Reels to Video
+              </a>
+              to extract relevant video clips from a video.
+            </li>
+            <li>
+              Jan 2026: New video on
+              <a href="https://youtu.be/Xm0TeqJ9DYw?si=FyrOOM3dTGZvUh19" target="_blank" rel="noreferrer">
+                Are Forward KL and Reverse KL always Mode-Covering and Mode-Seeking? The Asymmetry of KL Divergence.
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section-header">
+          <h2>Education</h2>
+          <!-- <p>Robotics, electrical engineering, and leadership roles across research and mentoring.</p> -->
+        </div>
+        <div class="list-card">
+          <div class="education-list">
+            <article class="education-item">
+              <img class="edu-logo" src="media/umd_logo.svg" alt="University of Maryland logo" />
+              <div>
+                <h3>University of Maryland, College Park</h3>
+                <p class="meta">Master of Engineering, Robotics | Jan 2020 - Dec 2021 | GPA: 4.0/4.0</p>
+                <p>
+                  Teaching Assistant for
+                  <a href="https://www.cs.umd.edu/class/spring2021/cmsc426-0101/syllabus/syllabus.pdf" target="_blank" rel="noreferrer">
+                    CMSC426 - Computer Vision
+                  </a>
+                  (Spring 2021).
+                </p>
+              </div>
+            </article>
+            <article class="education-item">
+              <img class="edu-logo" src="media/VNIT_logo.jpeg" alt="Visvesvaraya National Institute of Technology logo" />
+              <div>
+                <h3>Visvesvaraya National Institute of Technology</h3>
+                <p class="meta">B.Tech, Electrical and Electronics Engineering | Jul 2012 - May 2016 | GPA: 8.64/10</p>
+                <p>Student Mentor (2014-16), UG Academic Affairs Secretary - Student Council (2015-16)</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-header">
+          <h2>Experience</h2>
+          <!-- <p>Leading reinforcement learning systems and building practical robotics software.</p> -->
+        </div>
+        <div class="timeline">
+          <article class="timeline-item with-logo">
+            <img class="edu-logo" src="media/zoox_logo.png" alt="Zoox logo" />
+            <div>
+              <div class="timeline-title">
+                <h3>Zoox, United States</h3>
+                <span>Software Engineer | Jan 2022 - Present</span>
+              </div>
+              <ul>
+                <li>Working on designing scalable and distributed reinforcement learning (RL) framework and algorithms to learn autonomous driving behavior policies.</li>
+                <li>
+                  Co-developed a high-throughput, low-latency JAX-based RL simulator
+                  (published in <a href="https://agents4ad.github.io/2024/" target="_blank" rel="noreferrer">DDADS Workshop, CVPR 2024</a>).
+                </li>
+                <li>
+                  Architected the Imitation Learning pipeline from the ground up featuring a
+                  <a href="https://arxiv.org/abs/2103.03206" target="_blank" rel="noreferrer">Perceiver</a>-style transformer model and efficient data loaders to establish a faster, memory-efficient foundation for RL training.
+                </li>
+                <li>
+                  Enabled large-scale training by integrating
+                  <a href="https://docs.mosaicml.com/projects/streaming/en/stable/index.html" target="_blank" rel="noreferrer">Mosaic Data Streaming</a> (MDS), eliminating critical data-copy bottlenecks and streaming massive datasets directly from cloud storage.
+                </li>
+                <li>
+                  Improved RL policy learning and sample efficiency by introducing
+                  <a href="https://arxiv.org/abs/1511.05952" target="_blank" rel="noreferrer">Prioritized Experience Replay</a> (PER) in distributed settings to focus training on the most informative experiences.
+                </li>
+                <li>Engineered a custom metric database tool with optimized queries and dedicated database instances, achieving a 98% reduction in data response time and accelerating model validation and analysis.</li>
+                <li>Authored and filed patents on Generative Reward Models, Interpretable Reward Decomposition, Retrieval-Augmented Policy Generation, and Hardware-Accelerated RL.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item with-logo">
+            <img class="edu-logo" src="media/zoox_logo.png" alt="Zoox logo" />
+            <div>
+              <div class="timeline-title">
+                <h3>Zoox, United States</h3>
+                <span>Research Intern | Jun 2021 - Dec 2021</span>
+              </div>
+              <ul>
+                <li>Built statistical tools for evaluating performance, robustness, and generalization of learned policies.</li>
+                <li>Investigated quality impacts of sharing weights between value and policy networks.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item with-logo">
+            <img class="edu-logo" src="media/umd-logo.png" alt="University of Maryland logo" />
+            <div>
+              <div class="timeline-title">
+                <h3>GAMMA Lab, University of Maryland</h3>
+                <span>Independent Researcher | Feb 2021 - May 2021</span>
+              </div>
+              <ul>
+                <li>Worked with Dr. Aniket Bera on <strong>adversarial agent behavior learning</strong> in autonomous driving using deep <strong>multi-agent reinforcement learning</strong>.</li>
+                <li>Implemented adversarial reward formulation and defense pipeline to enhance robustness of self-driving agents.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item with-logo">
+            <img class="edu-logo" src="media/ms_logo.jpeg" alt="Morgan Stanley logo" />
+            <div>
+              <div class="timeline-title">
+                <h3>Morgan Stanley, India</h3>
+                <span>Software Engineering Manager | Aug 2016 - Dec 2019</span>
+              </div>
+              <ul>
+                <li>Developed distributed web applications for client onboarding and account management used by 15k+ financial advisors.</li>
+                <li>Created and deployed frontend applications using Angular and REST web services using Java8, Spring, JMS MQs, DB2.</li>
+                <li>
+                  Built an <strong>automated meeting-minutes generator</strong> using Flask, AWS Transcribe, RNNs, and Markov chains.
+                  <span class="inline-links-inline">[<a href="https://github.com/anubhavparas/automated_minutes_of_meeting_generator" target="_blank" rel="noreferrer">Code</a>]</span>
+                </li>
+                <li>Served as a subject matter expert (SME) for Blockchain, Object Oriented Design, and Machine Learning (ML).</li>
+                <li>Delivered sessions on ML pipelines, feature engineering, and neural network design and architectures.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item with-logo">
+            <img class="edu-logo" src="media/iitb_logo.png" alt="IIT Bombay logo" />
+            <div>
+              <div class="timeline-title">
+                <h3>SINE Lab, IIT Bombay</h3>
+                <span>Summer Intern | May 2014 - Jul 2014</span>
+              </div>
+              <ul>
+                <li>
+                  Built a dynamixel-based snake robot with sidewinding, sliding, and rolling gaits.
+                  <span class="inline-links-inline">[<a href="https://github.com/anubhavparas/snake-robot" target="_blank" rel="noreferrer">Code</a>, <a href="https://youtu.be/VrINsVVjxOQ?si=HhDKHlo8WOFi_XcD" target="_blank" rel="noreferrer">Video</a>]</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- <section class="section" id="skills">
+        <div class="section-header">
+          <h2>Technical Skills</h2>
+          <p>Languages, libraries, and tools across ML research and production engineering.</p>
+        </div>
+        <div class="chip-grid">
+          <div>
+            <h3>Languages</h3>
+            <p>C, C++, Python, Java, MATLAB, JavaScript, TypeScript, Angular</p>
+          </div>
+          <div>
+            <h3>Libraries</h3>
+            <p>JAX, PyTorch, TensorFlow, Keras, Ray, OpenCV, Flask</p>
+          </div>
+          <div>
+            <h3>CI/CD Tools</h3>
+            <p>Bazel, CMake, TeamCity</p>
+          </div>
+          <div>
+            <h3>Tools and APIs</h3>
+            <p>AWS, Protobufs, ROS, Gazebo, Simulink, Spring, JUnit, Mockito, REST API, Swagger</p>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section" id="publications">
+        <div class="section-header">
+          <h2>Publications &amp; Preprints</h2>
+          <!-- <p>Selected work on reinforcement learning, autonomous driving, and perception systems.</p> -->
+        </div>
+        <div class="list-card">
+          <ul class="publications-list">
+            <li>
+              <div class="publication-item">
+                <div class="publication-title">Scaling Is All You Need: Autonomous Driving with JAX-Accelerated Reinforcement Learning</div>
+                <div class="publication-authors">M Harmel, <span class="highlight-name">A Paras</span>, A Pasternak, N Roy, G Linscott</div>
+                <div class="publication-venue">DDADS Workshop, CVPR 2024</div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2312.15122" target="_blank" rel="noreferrer">arXiv</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="publication-item">
+                <div class="publication-title">Adversarial Agent Behavior Learning in Autonomous Driving Using Deep Reinforcement Learning</div>
+                <div class="publication-authors">A Srinivasan, <span class="highlight-name">A Paras</span>, A Bera</div>
+                <div class="publication-venue">Preprint, 2021</div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/pdf/2508.15207" target="_blank" rel="noreferrer">arXiv</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="publication-item">
+                <div class="publication-title">FM Based Localization and Mapping System with Real Time Implementation on FPGA</div>
+                <div class="publication-authors">A Dubey, A Kulkarni, <span class="highlight-name">A Paras</span>, A Deole, AS Gandhi, KM Bhurchandi</div>
+                <div class="publication-venue">IEEE ICTC, 2015</div>
+                <div class="publication-links">
+                  <a href="https://ieeexplore.ieee.org/document/7354522" target="_blank" rel="noreferrer">IEEE,</a><a href="https://youtu.be/JnlE28AQ2LA?si=yUQJ6sZNxeFzxp3P" target="_blank" rel="noreferrer">Demo</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="patents">
+        <div class="section-header">
+          <h2>Patents</h2>
+          <!-- <p>Filed patents focused on reinforcement learning, reward modeling, and autonomous driving.</p> -->
+        </div>
+        <div class="patents-block">
+          <div class="list-card">
+            <ul class="publications-list patents-list">
+              <li>
+                <div class="publication-item">
+                  <div class="publication-title">Scalable Generative Reward Models for Autonomous Driving Policies</div>
+                  <div class="publication-authors"><span class="highlight-name">A Paras</span></div>
+                  <div class="publication-venue">Filed 2025</div>
+                </div>
+              </li>
+              <li>
+                <div class="publication-item">
+                  <div class="publication-title">Interpretable Reward Function Decomposition for Autonomous Driving Policies</div>
+                  <div class="publication-authors"><span class="highlight-name">A Paras</span></div>
+                  <div class="publication-venue">Filed 2025</div>
+                </div>
+              </li>
+              <li>
+                <div class="publication-item">
+                  <div class="publication-title">Retrieval Augmented Policy Generation - Learning to drive from rules of the road</div>
+                  <div class="publication-authors"><span class="highlight-name">A Paras</span></div>
+                  <div class="publication-venue">Filed 2025</div>
+                </div>
+              </li>
+              <li>
+                <div class="publication-item">
+                  <div class="publication-title">Preference-Based Reinforcement Learning for Autonomous Vehicles</div>
+                  <div class="publication-authors"><span class="highlight-name">A Paras</span>, M Harmel, A Pasternak</div>
+                  <div class="publication-venue">Filed 2024</div>
+                </div>
+              </li>
+              <li>
+                <div class="publication-item">
+                  <div class="publication-title">Reinforcement Learning Policy Test Framework</div>
+                  <div class="publication-authors"><span class="highlight-name">A Paras</span>, M Harmel, A Pasternak</div>
+                  <div class="publication-venue">Filed 2024</div>
+                </div>
+              </li>
+              <li>
+                <div class="publication-item">
+                  <div class="publication-title">Hardware-Accelerated Reinforcement Learning for Machine-Learned Vehicle Control Model</div>
+                  <div class="publication-authors">M Harmel, <span class="highlight-name">A Paras</span>, A Pasternak, N Roy, G Linscott</div>
+                  <div class="publication-venue">Filed 2023: US Patent No: 63/610,387 (Dec 2023)</div>
+                  <!-- <ul class="publication-sublist">
+                    <li class="meta">US Patent No: 63/610,387 (Dec 2023).</li>
+                  </ul> -->
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <!-- <p>Open-source and research projects spanning interpretability, robotics, and control.</p> -->
+        </div>
+        <div class="list-card">
+          <ul class="projects-list">
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/rl_interp_highway.png" alt="Interpretability in Autonomous Driving preview" />
+                <div>
+                  <h3>Interpretability in Autonomous Driving</h3>
+                  <p class="meta">Sept 2025</p>
+                  <p>Visual attribution analysis of RL agents.</p>
+                  <a href="https://github.com/anubhavparas/autonomous-driving-rl-interpretability" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/gesture_gan.png" alt="GestureGAN optimization preview" />
+                <div>
+                  <h3>GestureGAN Optimization for Robotics Applications with Neural Architecture Search</h3>
+                  <p class="meta">Dec 2020</p>
+                  <p>Optimized cross-view image generation using MobileNet (5.7x parameter reduction) on Nvidia Jetson.</p>
+                  <a href="https://github.com/anubhavparas/mobileGestureGan" target="_blank" rel="noreferrer">Code</a>,
+                  <a href="https://drive.google.com/file/d/1PE1d7tnIdIfNEQ5wrGTQuEqO_RJzNx_J/view?usp=sharing" target="_blank" rel="noreferrer">Report</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/slic_seg.png" alt="Image segmentation project preview" />
+                <div>
+                  <h3>Image Segmentation with Superpixels and Zoom-out Features</h3>
+                  <p class="meta">Dec 2020</p>
+                  <p>Given an image computed superpixels and classified each superpixel as one of the 9 classes of MSRC v1.</p>
+                  <a href="https://github.com/anubhavparas/image-segmentation-using-superpixels" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/LQR_Q1000.png" alt="LQR and LQG controllers preview" />
+                <div>
+                  <h3>Linear Quadratic Regulator (LQR) and Linear Quadratic Gaussian (LQG) Controllers</h3>
+                  <p class="meta">Dec 2020</p>
+                  <p>Controllers to balance two inverted pendulums on a moving cart using LQR and LQG.</p>
+                  <a href="https://github.com/anubhavparas/cart-pendulum-control" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/traj_follow_q.gif" alt="Quadrotor autonomous control preview" />
+                <div>
+                  <h3>Quadrotor Autonomous Control</h3>
+                  <p class="meta">Nov 2020</p>
+                  <p>Low-level autonomous control and tracking of quadrotor using reinforcement learning - Proximal Policy Optimization (PPO).</p>
+                  <a href="https://github.com/anubhavparas/quadrotor_control_ppo" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/self-adjusting-roadmaps-video.gif" alt="Self-adjusting roadmaps preview" />
+                <div>
+                  <h3>Self-Adjusting Roadmaps using Low Density Probabilistic Roadmaps (LD-PRM)</h3>
+                  <p class="meta">May 2020</p>
+                  <p>Path planning using self-adjusting roadmaps for unknown environments.</p>
+                  <a href="https://github.com/anubhavparas/self-adjusting-roadmaps" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/vis_odo_camera.png" alt="Visual odometry preview" />
+                <div>
+                  <h3>Visual Odometry - Camera motion estimation</h3>
+                  <p class="meta">May 2020</p>
+                  <p>Plotting 3D motion of a car-mounted camera.</p>
+                  <a href="https://github.com/anubhavparas/visual-odometry" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-item">
+                <img class="project-thumb" src="media/all_buoy_detected_gif.gif" alt="Color segmentation preview" />
+                <div>
+                  <h3>Color Segmentation</h3>
+                  <p class="meta">Apr 2020</p>
+                  <p>Underwater Buoy detection using Gaussian Mixture Models (GMM) and Expectation-Maximization (EM) Algorithm.</p>
+                  <a href="https://github.com/anubhavparas/color-segmentation-using-gaussain-mixture-models" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="academic">
+        <div class="section-header">
+          <h2>Academic Services</h2>
+          <!-- <p>Reviewer roles and invited panels for the research community.</p> -->
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Reviewer</h3>
+            <ul>
+              <li>International Conference on Learning Representations (<strong>ICLR</strong>): 2025, 2026</li>
+              <li><strong>ICLR</strong> Workshop on World Models: 2026</li>
+              <li>Artificial Intelligence and Statistics Conference (<strong>AISTATS</strong>): 2025, 2026</li>
+              <li><strong>ICCV</strong> LIMIT Workshop: 2025</li>
+              <li>IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>): 2025</li>
+              <li>Conference on Robot Learning (<strong>CoRL</strong>): 2024</li>
+              <li>Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>):  2024, 2025</li>
+              <li><strong>NeurIPS</strong> Workshop on MATH-AI: 2024</li>
+              <li><strong>NeurIPS</strong> Workshop on Machine Learning Compression: 2024</li>
+              <li>International Symposium of Robotics Research (<strong>ISRR</strong>): 2024</li>
+              <!-- <li>ICLR: 2025, 2026</li>
+              <li>ICLR Workshop on World Models: 2026</li>
+              <li>AISTATS: 2025, 2026</li>
+              <li>ICCV LIMIT Workshop: 2025</li>
+              <li>IROS: 2025</li>
+              <li>CoRL: 2024</li>
+              <li>NeurIPS: 2024, 2025</li>
+              <li>NeurIPS Workshop on MATH-AI: 2024</li>
+              <li>NeurIPS Workshop on Machine Learning Compression: 2024</li>
+              <li>ISRR: 2024</li> -->
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Panelist</h3>
+            <div class="publication-item">
+              <div class="publication-title">Driving Decisions: The Future of Autonomy</div>
+              <div class="publication-venue">May 2025</div>
+              <div class="publication-authors">
+                Addressed an audience of 100+ participants on learning-based decision making in autonomous driving, AI and human preference alignment and safety evaluation for self-driving cars, and student career preparation.
+              </div>
+              <div class="publication-links">
+                <a href="https://luma.com/ted2yt6t" target="_blank" rel="noreferrer">Event</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Open to collaborations, speaking engagements, and research discussions.</p>
+        </div>
+        <div class="contact-card">
+          <p>
+            Email: <a href="mailto:anubhavp@terpmail.umd.edu">anubhavp@terpmail.umd.edu</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <p class="end-note">Happy Learning! 🤝<br />Keep Smiling.. 🙂</p>
+    <footer class="site-footer">
+      <p>© 2026 Anubhav Paras. Credits: GPT-5.2 Codex and Cursor</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
